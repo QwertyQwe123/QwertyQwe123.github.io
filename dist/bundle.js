@@ -38483,7 +38483,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function chooseScreen(props) {
     var choose = function choose(length) {
-        rops.chooseLength(length);
+        props.chooseLength(length);
     };
     return _react2.default.createElement(
         'div',
