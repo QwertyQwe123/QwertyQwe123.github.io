@@ -1,0 +1,10 @@
+.tableLine:hover {
+	background: rgba(0,0,0,.05) !important;
+}
+tr.tableLine:nth-of-type(odd) {
+	background: #f9f9f9;
+}
+.disabledBtn {
+	cursor: default !important;
+	background-color: rgba(0,0,0,.1) !important;
+}
