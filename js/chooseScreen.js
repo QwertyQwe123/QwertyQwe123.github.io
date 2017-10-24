@@ -3,7 +3,7 @@ import classnames from 'classnames';
 
 export default function chooseScreen(props) {
         const choose = (length) => {
-            rops.chooseLength(length);
+            props.chooseLength(length);
         }
         return (
             <div style={{position: 'absolute', zIndex: 20000, height: '100%', width: '100%', background: 'white'}}>
